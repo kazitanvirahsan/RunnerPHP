@@ -6,15 +6,16 @@ Usage and sample codes:
 Router White Listing Sample Code:
 RUNNER Ref: https://github.com/kazitanvirahsan/RunnerPHP/blob/master/Runner/Router/UnitRouter.php
 
-$routerArray = array(
-   'Article' => array( array( 'controller' => 'Article', 'action' => 'aboutme'),
-    array( 'controller' => 'Article', 'action' => 'showarticles'),
-    array( 'controller' => 'Article', 'action' => 'showarticle'),
-    array('controller' => 'Article', 'action' => 'addcomment'),
-    array('controller' => 'Article', 'action' => 'home'),
-    array('controller' => 'Article', 'action' => 'search')
-    )
-);
+
+    $routerArray = array(
+       'Article' => array( array( 'controller' => 'Article', 'action' => 'aboutme'),
+                    array( 'controller' => 'Article', 'action' => 'showarticles'),
+                    array( 'controller' => 'Article', 'action' => 'showarticle'),
+                    array('controller' => 'Article', 'action' => 'addcomment'),
+                    array('controller' => 'Article', 'action' => 'home'),
+                    array('controller' => 'Article', 'action' => 'search')
+       )
+    );
 
 
     // create Unit Routing
