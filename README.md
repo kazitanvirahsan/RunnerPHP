@@ -1,6 +1,7 @@
 RunnerPHP is a small and handy phpmvc framework 
 ===============================
- 
+   RunnerPHP is a small and handy framework developed in PHP 5.4. 
+
 Usage and sample codes:
 
 Router White Listing Sample Code:
@@ -28,12 +29,12 @@ RUNNER Ref: https://github.com/kazitanvirahsan/RunnerPHP/blob/master/Runner/Rout
     // check your controller and action against your predefined router 
     $whiteListCheck = $unitRoute->findRoute( $route );
 
-   //Enter into the main application after validation
-   if($whiteListCheck) {
-      // enter into application
-   }else {
-      // forward to erro page
-   }
+    //Enter into the main application after validation
+    if($whiteListCheck) {
+        // enter into application
+    }else {
+        // forward to erro page
+    }
 
 
 
@@ -88,5 +89,8 @@ RUNNER Ref: https://github.com/kazitanvirahsan/RunnerPHP/blob/master/Runner/Cach
                       $data);
 
 
-                              RunnerPHP is an open source project initiated and developed By Kazi Tanvir Ahsan. 
+                              
+
+
+RunnerPHP is an open source project initiated and developed By Kazi Tanvir Ahsan. 
 
