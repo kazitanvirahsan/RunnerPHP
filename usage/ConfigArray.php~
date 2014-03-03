@@ -1,0 +1,21 @@
+<?php
+/**
+ * Define document paths
+ */
+$configArray = array(
+    'Proj'  => 'myblog',
+    'SiteRoot'  => 'http://localhost/myblog',
+    'ARTICLES_ROOT' =>  $_SERVER["DOCUMENT_ROOT"]  . DIRECTORY_SEPARATOR . 'myblog' . DIRECTORY_SEPARATOR . 'assets' . DIRECTORY_SEPARATOR . 'articles' . DIRECTORY_SEPARATOR,
+    'APPLICATION_ROOT' => $_SERVER["DOCUMENT_ROOT"] . DIRECTORY_SEPARATOR  . 'myblog', 
+    'database' => array(
+        'adapter' => 'pdo_mysql',
+        'params'  => array(
+            'host'     => 'localhost',
+            'username' => 'root',
+            'password' => 'sa',
+            'dbname'   => 'kaziblog'
+        )
+    )
+);
+
+?>
